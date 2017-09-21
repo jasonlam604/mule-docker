@@ -11,7 +11,7 @@ docker pull jasonlam604/mule
 For a simple application using 8181 port as HTTP
 
 ```
-docker run -d -name mymule -p 8181:8181 -v ~/your-app-dir:/opt/mule/apps -v ~/your-log-dir:/opt/mule/logs jasonlam604/mule
+docker run -d -h mymule -p 8181:8181 -v ~/your-app-dir:/opt/mule/apps -v ~/your-log-dir:/opt/mule/logs jasonlam604/mule
 ```
 
 ## Mount points
